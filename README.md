@@ -36,4 +36,4 @@ using support tab from the app
 
 By using Calorie Counter AI, you agree to the terms of this Privacy Policy. If you do not agree with the terms, please do not use the App.
 
-Thank you for choosing Nofap: Quit Addiction.
+Thank you for choosing Calorie Counter AI.

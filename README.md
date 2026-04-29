@@ -1,6 +1,6 @@
 # Calorie Counter AI Privacy Policy
 
-Effective Date: 20 April 2026
+Effective Date: 29 April 2026
 
 ## Introduction
 
@@ -45,6 +45,9 @@ We may process limited technical information needed to operate and improve the a
 - Feature usage
 - Crash and diagnostic information
 
+### 5. Attribution Information (iOS only, optional)
+On iOS, if you allow tracking when prompted by the system App Tracking Transparency dialog, the app may collect a limited Apple Search Ads attribution token (via Apple's AdServices framework) so we can understand which Apple Search Ads campaigns brought new users to the app. If you decline tracking, only a coarse, non-identifying "Standard" attribution token is collected, which contains no advertising identifier and no per-user data. You can change your decision at any time in iOS Settings → Privacy & Security → Tracking. macOS does not request tracking and does not collect attribution tokens.
+
 ## How We Use Information
 
 We use information to:
@@ -54,6 +57,7 @@ We use information to:
 - Personalize your experience based on your goals and preferences
 - Support Apple Health integrations you choose to enable
 - Process subscriptions and restore purchases
+- Measure the effectiveness of Apple Search Ads campaigns and improve onboarding (iOS only, when you grant ATT permission)
 - Maintain app security, performance, and reliability
 - Provide customer support
 
@@ -69,6 +73,23 @@ If you choose to connect Apple Health, the app may read and write health-related
 
 Apple Health data is used only to provide and improve app features for you. We do not use Apple Health data for advertising or sell it to third parties.
 
+## App Tracking Transparency (iOS)
+
+On iOS, the app uses Apple's App Tracking Transparency (ATT) framework to ask permission before collecting any data that could be used to track you across other companies' apps and websites.
+
+- If you select "Allow", the app, together with Apple's AdServices framework and our subscription provider RevenueCat, may receive Detailed Apple Search Ads attribution data (such as campaign, ad group, keyword, and ad identifiers) so we can understand which marketing campaign introduced you to the app.
+- If you select "Ask App Not to Track" or skip the prompt, only Standard attribution data (no advertising identifier, no detailed campaign-level information) is collected.
+- Your meal data, weight, photos, voice input, and chat content are never used for tracking and are never sold or shared with advertisers regardless of your ATT choice.
+- The ATT prompt only appears on iOS. macOS users are not tracked.
+
+You can change this setting at any time in iOS Settings → Privacy & Security → Tracking.
+
+## Subscriptions, Purchases, and Web Purchase Redemption
+
+Subscription state, in-app purchases, and entitlements are handled through Apple's StoreKit and our subscription infrastructure provider RevenueCat. If you complete a purchase on the web (for example via a Stripe-backed checkout offered through our paywall), RevenueCat issues a one-time redemption link that securely associates the web purchase with your in-app account on iOS. The redemption flow does not transmit any new personal information beyond what is required to recognize and grant the purchase.
+
+If you purchase a subscription or other in-app product on iOS or macOS, payment information is processed by Apple and we do not directly store your full payment card information. For web purchases, payment is processed by Stripe (or a comparable PCI-compliant payment provider) and we do not directly store your full payment card information either.
+
 ## Data Storage
 
 Your information may be stored locally on your device and, where needed to provide app features such as syncing, account access, AI processing, subscriptions, and data recovery, may also be stored securely using third-party infrastructure and backend service providers.
@@ -79,7 +100,8 @@ We may rely on third-party services to help operate the app, including services 
 - Account authentication
 - Cloud storage and syncing
 - AI processing
-- Subscription and purchase management
+- Subscription and purchase management (including web checkout and redemption)
+- Apple Search Ads attribution measurement (iOS only, via Apple AdServices and RevenueCat — only when you allow tracking)
 - Diagnostics and crash reporting
 - Customer support communications
 
@@ -87,7 +109,7 @@ We do not describe these providers by name in this policy, but they only receive
 
 ## Advertising
 
-Calorie Counter AI does not use third-party advertising networks to display ads inside the app.
+Calorie Counter AI does not display third-party ads inside the app and does not use third-party ad networks to serve ads to you. The only advertising-related processing is the optional Apple Search Ads attribution measurement described in the App Tracking Transparency section above, which lets us understand whether new users came from an Apple Search Ads campaign — it does not show you ads.
 
 ## In-App Purchases
 
@@ -97,7 +119,7 @@ If you purchase a subscription or other in-app product, payment information is p
 
 We do not sell your personal information.
 
-We may share limited information with third-party service providers only as necessary to operate the app, process subscriptions, provide AI features, store your data, maintain security, and support app functionality.
+We may share limited information with third-party service providers only as necessary to operate the app, process subscriptions, provide AI features, measure Apple Search Ads attribution (when you allow it), store your data, maintain security, and support app functionality.
 
 ## Data Retention
 
@@ -115,6 +137,7 @@ You can choose whether to:
 - Create an account
 - Connect Apple Health
 - Enable notifications
+- Allow App Tracking Transparency on iOS (and change this any time in iOS Settings → Privacy & Security → Tracking)
 - Use AI-powered scanning, transcription, and coach features
 - Delete your data from within the app
 
